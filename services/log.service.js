@@ -16,5 +16,13 @@ const printHelp = () => {
     `)
   );
 };
+const printWeather = ({data, icon}) => {
+  console.log(
+    dedent(`${chalk.bgBlueBright(" WEATHER ") } 
+   City: ${data.name} ${data.weather[0].description} 
+   Temparture: ${data.main.temp} , feel like ${data.main.feels_like}
+    `)
+  );
+};
 
-export { printError, printSuccess, printHelp };
+export { printError, printSuccess, printHelp,printWeather };
