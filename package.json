@@ -1,8 +1,8 @@
 {
-  "name": "wheather",
+  "name": "weather_check_cli",
   "version": "1.0.0",
   "description": "CLI to get weather information",
-  "main": "wheather.js",
+  "main": "weather.js",
   "bin": {
     "weather": "weather.js"
   },
