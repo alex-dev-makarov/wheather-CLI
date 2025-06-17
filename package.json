@@ -1,10 +1,10 @@
 {
   "name": "weather_check_cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "CLI to get weather information",
   "main": "weather.js",
   "bin": {
-    "weather": "weather.js"
+    "weather": "TOKEN=ca5eca63b1c76cc1a6625802cc41f7b3 weather.js"
   },
   "type": "module",
   "scripts": {
