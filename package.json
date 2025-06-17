@@ -1,6 +1,6 @@
 {
   "name": "weather_check_cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to get weather information",
   "main": "weather.js",
   "bin": {
@@ -8,6 +8,7 @@
   },
   "type": "module",
   "scripts": {
+    "start": "TOKEN=ca5eca63b1c76cc1a6625802cc41f7b3 node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
